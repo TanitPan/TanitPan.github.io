@@ -3,18 +3,19 @@
 $site-green: #81fca2;
 $site-red: #b8372e;
 $site-white: #ffffff;
+$site-brown: #423710;
 h1, p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: $site-green;
+    color: $site-brown;
 }
 
 .body-img {
     width:20%;
-    border: $site-green solid 10px;
+    border: $site-brown solid 10px;
 }
 
 #projects {
@@ -33,6 +34,7 @@ li {
 }
 
 body {
+    background-color: #ffe380;
     margin: auto;
     width: 80%;
 }
