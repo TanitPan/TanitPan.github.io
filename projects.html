@@ -1,0 +1,25 @@
+---
+layout: default
+projects:
+- name: Face Detection
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget.
+- name: EKF Localization
+  description: Aliquam eu interdum urna. Morbi gravida augue nec mauris lobortis, non aliquam justo aliquet. Etiam porttitor id mi quis tristique.
+- name: UGV manual driving
+  description: Integer sagittis tempus orci a ultricies. Vestibulum laoreet non purus et sollicitudin. Etiam porttitor ultrices porta. Proin sit amet risus in ante congue auctor eu non erat.
+- name: Drive vehicle in virtual world OpenGL/Xbox controller
+  description: Pellentesque in tortor pretium, lobortis lorem at, congue erat. 
+---
+
+<h1> A list of my projects </h1>
+<h1> HELLO </h1>
+
+<div id = "projects">
+    {% for project in page.projects %}
+        <div class = "project-container">
+            <h2> {{ project.name }} </h2>
+            <p> {{ project.description }} </p>
+        </div>
+    {% endfor %}
+    <h1> SUPPPP </h1>
+</div>

@@ -1,4 +1,28 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Tanit's Portfolio
+---
+
+# Welcome to my portfolio...
+
+Hello, I'm Tanit. I like to read Chinese novels about cultivation.
+
+Hobbies:
+* Running
+* Coding
+* Trading stock
+* Read Novel
+* Play DOTA2
+
+![A photo of me on a cruise party](images/my_pic1.jpg){:.body-img}
+
+
+
+[My Projects](https://tanitpan.github.io/projects)
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <title> Tanit's Portfolio</title>
@@ -6,11 +30,11 @@
     </head>
     <body>
         <h1>Welcome to my portfolio</h1>
-        <p>Hello, I'm Tanit. I like to read Chinese novels about cultivation</p>
+        <p>Hello, I'm Tanit. I like to read Chinese novels about cultivation.</p>
         <p>Hobbies:</p>
         <ul>
             <li>
-                Tennis                        
+                Running                        
             </li>
             <li>
                 Coding                
@@ -27,4 +51,4 @@
         </ul>
         <img class = "body-img" src = "images/my_pic1.jpg"> 
     </body>
-</html>
+</html> -->
