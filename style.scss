@@ -4,18 +4,27 @@ $site-green: #81fca2;
 $site-red: #b8372e;
 $site-white: #ffffff;
 $site-brown: #423710;
+$site-black: #000000;
+$site-blue: #3E68ED;
+
+$site-bg1: #C1D0E2;
+$site-bg2: #5DA1C4;
+$site-bg3: #25303C;
+$site-bg4: #527A8E;
+$site-bg5: #85B2C7;
+
 h1, p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: $site-brown;
+    color: $site-black;
 }
 
 .body-img {
     width:20%;
-    border: $site-brown solid 10px;
+    border: $site-bg4 solid 8px;
 }
 
 #projects {
@@ -26,15 +35,40 @@ li {
 }
 
 .project-container {
-    background-color: $site-red;
+    background-color: $site-bg5;
     padding: 5px;
     h2 {
+        color: $site-black;
         text-align: center;
     }
 }
 
 body {
-    background-color: #ffe380;
+    margin: 0px;
+    background-color: $site-bg1;
+}
+
+main {
     margin: auto;
     width: 80%;
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: $site-black;
+    }
+    div {
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+nav {
+    left: 100px;
+    background-color: $site-bg3;
+    a {
+        margin: 5px 10px 5px 10px;
+        display: inline-block;
+        text-decoration: none;
+        color: $site-white;
+        font-size: 2em;
+    }
 }

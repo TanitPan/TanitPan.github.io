@@ -5,7 +5,7 @@ title: Tanit's Portfolio
 
 # Welcome to my portfolio...
 
-Hello, I'm Tanit. I like to read Chinese novels about cultivation.
+Hello, I'm Tanit. I like to read Chinese novels about cultivation.   
 
 Hobbies:
 * Running
@@ -14,11 +14,15 @@ Hobbies:
 * Read Novel
 * Play DOTA2
 
+&nbsp;  
+
+&nbsp;
+
 ![A photo of me on a cruise party](images/my_pic1.jpg){:.body-img}
 
 
 
-[My Projects](https://tanitpan.github.io/projects)
+<!-- [My Projects](https://tanitpan.github.io/projects) -->
 
 
 
