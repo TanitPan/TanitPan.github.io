@@ -1,23 +1,32 @@
 ---
 layout: default
 projects:
-- name: Face Detection
+- name: Object Detection
+  image: <img alt = "Object detection and classification image" src = /images/object_detection.jpg class = "center">
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget.
-- name: EKF Localization
+- name: Micromouse Robot
+  image: <img alt = "Object detection and classification image" src = /images/micromouse01.jpg class = "center">
   description: Aliquam eu interdum urna. Morbi gravida augue nec mauris lobortis, non aliquam justo aliquet. Etiam porttitor id mi quis tristique.
-- name: UGV manual driving
+- name: Rotational Matrix and Point Cloud Extraction
+  image: <img alt = "Object detection and classification image" src = /images/point_cloud.jpg class = "center">
   description: Integer sagittis tempus orci a ultricies. Vestibulum laoreet non purus et sollicitudin. Etiam porttitor ultrices porta. Proin sit amet risus in ante congue auctor eu non erat.
+               Integer maximus ullamcorper justo, et dictum mauris auctor nec. Mauris id dui vel libero hendrerit sagittis a quis sapien. Fusce sagittis ex in rutrum gravida. Quisque posuere elementum tellus, eget sodales massa porttitor in. 
+               Duis at magna sed lacus interdum pharetra. Duis dictum, justo eu rhoncus laoreet, urna metus egestas ante, vel egestas velit ante quis risus.
 - name: Drive vehicle in virtual world OpenGL/Xbox controller
-  description: Pellentesque in tortor pretium, lobortis lorem at, congue erat. 
+  image: <img alt = "Object detection and classification image" src = /images/virtual_car.jpg class = "center">
+  description: Pellentesque in tortor pretium, lobortis lorem at, congue erat. Nulla dui arcu, elementum quis dui sed, dapibus tristique nibh. Morbi suscipit mauris in ipsum facilisis porttitor. Sed pharetra at enim a tempor. 
+               Nam porta justo vel congue tincidunt. In ex enim, ullamcorper in dui non, venenatis auctor tortor. Mauris augue sapien, fringilla a consectetur id, tempor blandit orci.
 ---
 
 <h1> A list of my projects </h1>
+<hr>
 <h1> HELLO : )</h1>
 
 <div id = "projects">
     {% for project in page.projects %}
         <div class = "project-container">
             <h2> {{ project.name }} </h2>
+            {{project.image}}
             <p> {{ project.description }} </p>
         </div>
     {% endfor %}

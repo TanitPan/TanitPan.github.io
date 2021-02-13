@@ -2,8 +2,11 @@
 layout: default
 title: Tanit's Portfolio
 ---
+<!-- ![A photo of Sydney CBD taken from ferry](images/tab_sydney.jpg) -->
 
 # Welcome to my portfolio...
+
+___
 
 Hello, I'm Tanit. I like to read Chinese novels about cultivation.   
 
@@ -13,12 +16,17 @@ Hobbies:
 * Trading stock
 * Read Novel
 * Play DOTA2
+* Minecraft
 
 &nbsp;  
 
 &nbsp;
 
 ![A photo of me on a cruise party](images/my_pic1.jpg){:.body-img}
+
+
+![Minecraft tower I built](images/minecraft01.jpg){:.body-img}
+
 
 
 
