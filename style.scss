@@ -14,11 +14,14 @@ $site-bg4: #527A8E;
 $site-bg5: #85B2C7;
 
 h1, p {
-    font-family: Arial, Helvetica, sans-serif;
+    // font-size: 2.3vw;
+    // font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive, Arial, Helvetica, sans-serif;
 }
 
 li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    // font-size: 2.4vw;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
     color: $site-black;
 }
 
@@ -50,10 +53,11 @@ body {
 }
 
 main {
+    font-family: cursive, Arial, Helvetica, sans-serif;
     margin: auto;
     width: 80%;
     a {
-        font-size: 20px;
+        // font-size: 20px;
         text-decoration: none;
         color: $site-black;
     }
@@ -93,6 +97,41 @@ section {
         background-repeat: no-repeat;
     }
   }
+
+// @media screen and (max-width: 320px) {
+//     html {
+//       font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+//     }
+//   }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+// @media screen and (min-width: 1000px) {
+//     html {
+//       font-size: 50px;
+//     }
+//   }
+
+html {
+    font-size: clamp(1rem, 3vw, 2rem)
+}
+
+
+
+// /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+// @media screen and (max-width: 600px) {
+//     html {
+//       font-size: 30px;
+//     }
+//   }
+
+//   /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+// @media screen and (min-width: 601px) {
+//     html {
+//       font-size: 80px;
+//     }
+//   }
+
+
 
 // .section-img {
 //     width: 120%;
