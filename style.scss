@@ -16,12 +16,12 @@ $site-bg5: #85B2C7;
 h1, p {
     // font-size: 2.3vw;
     // font-family: Arial, Helvetica, sans-serif;
-    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
 li {
     // font-size: 2.4vw;
-    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
     color: $site-black;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 main {
-    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-family: monospace, Arial, Helvetica, sans-serif;
     margin: auto;
     width: 80%;
     a {
