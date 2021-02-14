@@ -25,7 +25,7 @@ Hobbies:
 ![A photo of me on a cruise party](images/my_pic2.png)
 
 
-![Minecraft tower I built](images/minecraft01.jpg){:.body-img}
+<!-- ![Minecraft tower I built](images/minecraft01.jpg){:.body-img} -->
 
 
 
