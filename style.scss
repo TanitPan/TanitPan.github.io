@@ -13,6 +13,8 @@ $site-bg3: #25303C;
 $site-bg4: #527A8E;
 $site-bg5: #85B2C7;
 
+$site-gray: #ededed;
+
 h1, p {
     // font-size: 2.3vw;
     // font-family: Arial, Helvetica, sans-serif;
@@ -39,11 +41,14 @@ li {
 }
 
 .project-container {
-    background-color: $site-bg5;
+    background-color: $site-gray;
     padding: 5px;
     h2 {
         color: $site-black;
         text-align: center;
+    }
+    p {
+        color: $site-black;
     }
 }
 
@@ -68,7 +73,7 @@ main {
 
 nav {
     left: 100px;
-    background-color: $site-bg3;
+    background-color: $site-black;
     a {
         margin: 5px 10px 5px 10px;
         display: inline-block;
